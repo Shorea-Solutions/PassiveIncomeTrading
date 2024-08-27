@@ -470,7 +470,6 @@ textarea {
   }
 
   .page-cta__disc {
-    max-width: 50rem;
     margin: 0 auto;
   }
 
@@ -488,10 +487,7 @@ textarea {
   }
 
   @media screen and (min-width: 768px) {
-    .page-cta__legal {
-      flex-direction: row;
-    }
-
+    
     .page-cta__legal--col {
       padding: 2rem 3rem;
     }
