@@ -435,6 +435,16 @@ textarea {
   }
 
   .page-cta__link {
+   color: inherit;
+  }
+
+  .page-cta__link:visited,
+  .page-cta__link:active,
+  .page-cta__link:hover {
+    color: inherit;
+  }
+
+  .page-cta__btn {
     color: #fff;
     background-color: #007aff;
     text-decoration: none;
@@ -451,22 +461,16 @@ textarea {
     transition: all .3s ease;
   }
 
-  .page-cta__link:visited,
-  .page-cta__link:active,
-  .page-cta__link:hover {
-    color: #fff;
+  .page-cta__btn:visited,
+  .page-cta__btn:active,
+  .page-cta__btn:hover {
+    color: inherit;
   }
 
-  .page-cta__link:hover {
+  .page-cta__btn:hover {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .04), 0 4px 16px 0 rgba(0, 0, 0, .08), 0 8px 32px 0 rgba(0, 0, 0, .16);
     background-color: #007aff;
     border-color: #007aff;
-  }
-
-  .page-cta__btn {
-    display: grid;
-    gap: 1rem;
-    text-align: center;
   }
 
   .page-cta__disc {
